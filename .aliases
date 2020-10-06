@@ -1,0 +1,9 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias jest=node_modules/.bin/jest
+alias weather='curl -s wttr.in/Stockholm | sed -n "1,17p"'
+alias cat='bat'
+alias gadd='git add .'
+alias l='ls -lah'

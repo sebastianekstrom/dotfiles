@@ -1,0 +1,46 @@
+[alias]
+    co = checkout
+    st = status
+
+[user]
+	name = sebastianekstrom
+	email = seb.ekstrom@gmail.com
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[color "diff"]
+    meta = yellow bold
+    commit = cyan bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+[diff]
+	algorithm = patience
+	noprefix = true
+[protocol]
+	version = 2
+[core]
+	commitGraph = true
+[gc]
+	writeCommitGraph = true
