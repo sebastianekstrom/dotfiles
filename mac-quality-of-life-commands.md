@@ -1,5 +1,5 @@
 ### Save all screenshots to a specific folder
-Instead of all screenshots ending up cluttering the Desktop, this command will save all screenshots to a specific folder
+Instead of all screenshots ending up cluttering the Desktop, this command will save all screenshots to a specific folder.
 
 ```bash
 mkdir ~/Documents/Screenshots
@@ -20,6 +20,7 @@ MacOS has a delay for the amount of time it takes to repeat a character when you
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 1
 ```
+This command requires you to log out and in again for it to take effect.
 
 ### Hide desktop icons
 Clutter on the desktop is ugly, this command removes it so the only way to find the items on your desktop is through the Finder.
