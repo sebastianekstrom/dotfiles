@@ -9,12 +9,16 @@ defaults write com.apple.screencapture location ~/Documents/Screenshots
 ### Remove floating thumbnail after taking a screenshot
 This setting is enabled by default and is annoying since it displays the thumbnail for a really long time, and the file isn't saved until the thumbnail dissappears.
 
+![image](https://user-images.githubusercontent.com/1921046/141097386-04bbbcf7-57e2-4049-8688-8b654e743b23.gif)
+
 1. Open the screenshot tool with `Cmd + Shift + 5`
 2. Press the `Options` button
 3. Disable `Show Floating Thumbnail`
 
 ### Set a better keyboard repeat rate
 MacOS has a delay for the amount of time it takes to repeat a character when you press a key on the keyboard, as well as a delay for how often that key will be repeated while the key is held in. This is especially annoying when deleting a lot of text.
+
+![image](https://screenshot.click/10-23-tog0c-nfvbq.gif)
 
 ```bash
 defaults write -g InitialKeyRepeat -int 10
