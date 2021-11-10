@@ -43,8 +43,13 @@ This is a nice way to organize your dock into different categories.
 
 ![image](https://i.imgur.com/K0dROXW.png)
 
+The following command adds one space to the dock, add as many as you need:
 ```bash
 $ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+```
+When you've added the empty spaces, restart the dock to make them appear:
+
+```bash
 $ killall Dock
 ```
 
