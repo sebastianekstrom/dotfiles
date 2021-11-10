@@ -1,8 +1,8 @@
 # MacOS quality of life settings
-A list of settings that'll make your life with MacOS a bit smoother. The commands in this list are ment to be pasted into the `Terminal` app.
+A list of settings that'll make your life with MacOS a bit smoother. The commands in this list are ment to be pasted into the `Terminal` app one line at the time.
 
 ## Save all screenshots to its own folder
-Instead of all screenshots ending up cluttering the desktop, this command will save all screenshots to a specific folder.
+Instead of all screenshots ending up cluttering the desktop this command will save all screenshots to a specific folder.
 
 ```bash
 $ mkdir ~/Documents/Screenshots
@@ -19,7 +19,7 @@ This setting is enabled by default and is annoying since it displays the thumbna
 3. Disable `Show Floating Thumbnail`
 
 ## Set a better keyboard repeat rate
-MacOS has a delay for the amount of time it takes to repeat a character when you press a key on the keyboard, as well as a delay for how often that key will be repeated while the key is held in. This is especially annoying when deleting a lot of text.
+MacOS has a delay for the amount of time it takes to repeat a character when you press a key on the keyboard, as well as a delay for how often that key will be repeated while the key is held in. This is especially annoying when adding or deleting a lot of text.
 
 ![image](https://screenshot.click/10-23-tog0c-nfvbq.gif)
 
@@ -30,7 +30,7 @@ $ defaults write -g KeyRepeat -int 1
 This command requires you to log out and in again for it to take effect.
 
 ## Hide desktop icons
-Clutter on the desktop is ugly and messy, so lets fix that the same way we fix our real life problems; hide them and pretend they aren't there anymore.
+Clutter on the desktop is ugly and messy, so lets fix that the same way we fix our real life problems; hide them and pretend they don't exist.
 This command will visually hide all the icons on your desktop, but they will still be available through the `Finder` app.
 
 ```bash
@@ -38,8 +38,8 @@ $ defaults write com.apple.finder CreateDesktop false
 $ killall Finder
 ```
 
-## Add empty spaces to the dock for organization
-This is a nice way to organize your dock in different categories.
+## Add empty spaces to the dock
+This is a nice way to organize your dock into different categories.
 
 ![image](https://i.imgur.com/K0dROXW.png)
 
