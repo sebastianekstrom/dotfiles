@@ -9,9 +9,7 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-plugins=(
-  git zsh-autosuggestions thefuck
-)
+ZSH_THEME="oxide"
 
 source $ZSH/oh-my-zsh.sh
 
