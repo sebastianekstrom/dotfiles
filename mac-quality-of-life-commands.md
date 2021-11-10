@@ -22,3 +22,9 @@ killall Finder
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 killall Dock
 ```
+
+### Change keyboard shortcut to switch between different windows of the same app
+```bash
+System Preferences -> Keyboard -> Shortcuts -> Keyboard -> "Move focus to the next window"
+Bind to cmd + <
+```
