@@ -1,0 +1,44 @@
+# Font
+font-family = MesloLGS NF
+font-size = 17
+font-feature = liga
+
+# Background & Foreground
+background = 253239
+foreground = eceef0
+
+# Bold
+bold-is-bright = true
+
+# Cursor
+cursor-color = 424242
+cursor-text = 000000
+
+# Selection
+selection-background = 607c8b
+selection-foreground = eceef0
+
+# ANSI Colors (Normal)
+palette = 0=#546d79
+palette = 1=#ff5151
+palette = 2=#69f0ae
+palette = 3=#ffd73f
+palette = 4=#40c4fe
+palette = 5=#ff3f80
+palette = 6=#64fcda
+palette = 7=#fefefe
+
+# ANSI Colors (Bright)
+palette = 8=#b0bec4
+palette = 9=#ff8980
+palette = 10=#ffcc4a
+palette = 11=#ffe47e
+palette = 12=#80d7fe
+palette = 13=#ff80ab
+palette = 14=#a7fdeb
+palette = 15=#fefefe
+
+# Window
+window-padding-x = 0
+window-padding-y = 0
+macos-window-shadow = false
