@@ -11,8 +11,9 @@ foreground = eceef0
 bold-is-bright = true
 
 # Cursor
-cursor-color = 424242
-cursor-text = 000000
+cursor-style = block
+cursor-color = eceef0
+cursor-text = 253239
 
 # Selection
 selection-background = 607c8b
